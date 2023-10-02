@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: roboto-bold;
+    src: url(./fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: roboto-regular;
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+.container{
+    width: 100%;
+    background: var(--purple-10, #F6F2FF);
+    
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-family: roboto-regular;
+    gap: 5rem;
+}
+.logo{
+    display: flex;
+    padding-left: 3rem;
+    flex-grow: 2;
+}
+.nav-btn{
+    flex-grow: 1;
+}
+.middel-nav{
+    flex-grow: 2;
+    display: flex;
+    gap: 25px;
+    margin-left: 1.5rem;
+
+}
+.middel-nav>li{
+    list-style: none;
+}
+.middel-nav>li>a{
+    text-decoration: none;
+    color: #000;
+  font-family: roboto-regular;
+}
+.navbar>div>button{
+ width: 150px;
+ height: 40px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 5px;
+border: 2px solid var(--gradient-purple-gradient-16, #4776E6);
+font-size: 1rem;
+}
+.section-one{
+    width: 100%;
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+    margin-top: 5rem;
+    padding-bottom: 8rem;
+}
+.forfree{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/Ellipse\ 12.png);
+    background-repeat: no-repeat;
+    background-position: 0px 30px;
+    background-size: 200px;
+
+}
+.forfree>h1>span{
+   
+    color: #AF52DE;
+}
+.forfree>h1{
+    line-height: normal;
+    font-size: 2.2rem;
+    padding: 1rem;
+}
+.forfree>p{
+    color: var(--cold-grey-70, #505258);
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+}
+.forfree>button{
+    display: flex;
+width: 200px;
+height: 50px;
+padding: 5px 26px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 5px;
+border: 1px solid #FFF;
+background: var(--gradient-purple-gradient-16, linear-gradient(90deg, #4776E6 0%, #8E54E9 100%));
+
+/* Shadow/200 */
+box-shadow: 0px 8px 8px -4px rgba(24, 39, 75, 0.08), 0px 4px 6px -4px rgba(24, 39, 75, 0.12);
+}
+.rogza{
+    width: 45%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    
+}
+.first-laptop{
+    width: 500px;
+    position: absolute;
+    top: 0;
+    right: 1rem;
+}
+.second-screen{
+    width: 361px;
+    position: absolute;
+    top: 1rem;
+    right: 1.8rem;
+}
